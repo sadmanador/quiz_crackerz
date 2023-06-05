@@ -1,0 +1,34 @@
+.option-container{
+
+}
+
+.radio__input{
+    display: none;
+}
+
+.radio__label{
+    padding: 1em 2em;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: blueviolet;
+    background-color: white;
+    translate: background 0.1s;
+    cursor: pointer;
+    margin-left: 0.75em;
+    border-radius: 1em;
+    border: 2px solid rgba(238, 130, 238, 0.349);
+}
+
+.radio__label:not(:last-of-type) {
+    border-right: 1px solid rgba(238, 130, 238, 0.273);
+}
+
+.radio__label:hover{
+    background-color: #f1caff;
+}
+
+.radio__input:checked+.radio__label {
+    background-color: #f1caff;
+    margin-bottom: 1em;
+}

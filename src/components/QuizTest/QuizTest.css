@@ -1,0 +1,25 @@
+.option-and-result-container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.result-container{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 1.5em 2em;
+}
+
+.result-container{
+    padding-left: 2rem;
+}
+.topic-name{
+    display: none;
+}
+
+@media (min-width: 40em){
+    .option-and-result-container{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+}
